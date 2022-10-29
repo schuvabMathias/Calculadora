@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="boton_multiplicar">Multiplicar</string>
+    <string name="boton_salir">Salir</string>
+    <string name="label_top">Calculadora</string>
+    <string name="empty"></string>
+</resources>

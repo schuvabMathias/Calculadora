@@ -10,9 +10,57 @@
         android:id="@+id/multiplicar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="92dp"
         android:onClick="multiplicar"
         android:text="@string/boton_multiplicar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/out_resultado" />
+
+    <Button
+        android:id="@+id/suma"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="92dp"
+        android:onClick="sumar"
+        android:text="@string/boton_sumar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/out_resultado" />
+
+    <Button
+        android:id="@+id/resta"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
+        android:onClick="restar"
+        android:text="@string/boton_restar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/out_resultado" />
+
+    <Button
+        android:id="@+id/dividir"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="160dp"
+        android:onClick="dividir"
+        android:text="@string/boton_dividir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/out_resultado" />
+
+    <Button
+        android:id="@+id/modulo"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="228dp"
+        android:onClick="modulo"
+        android:text="@string/boton_modulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +70,7 @@
         android:id="@+id/salir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="232dp"
         android:onClick="salir"
         android:text="@string/boton_salir"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:ems="10"
-        android:hint="Numerador"
+        android:hint="Ingrese un numero"
         android:inputType="numberDecimal|number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -47,14 +95,14 @@
         android:id="@+id/in_denominador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
-        android:hint="Denominador"
+        android:hint="Ingrese otro numero"
         android:inputType="numberDecimal|number"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/in_numerador"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/in_numerador" />
 
     <TextView
         android:id="@+id/out_resultado"
@@ -65,5 +113,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/in_denominador" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="428dp"
+        android:text="Seleccione que accion desea realizar: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

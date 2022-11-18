@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Calculadora</string>
     <string name="boton_multiplicar">Multiplicar</string>
+    <string name="boton_sumar">SUMAR</string>
+    <string name="boton_restar">RESTAR</string>
+    <string name="boton_dividir">DIVIDIR</string>
+    <string name="boton_modulo">MODULO</string>
     <string name="boton_salir">Salir</string>
     <string name="label_top">Calculadora</string>
-    <string name="empty"></string>
+    <string name="empty">El resultado es: </string>
 </resources>
